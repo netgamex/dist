@@ -136,11 +136,7 @@ dist/
 
 ---
 
-## Game Spec 模板（强烈建议补齐）
-
-把玩法写清楚，AI 才能生成“可控、可维护”的代码，而不是一次性随机成品。
-
-你可以在 `specs/game-spec.md` 放入：
+ 
 
 ```md
 # Game Spec — 消除游戏（Tap-to-Remove）
@@ -190,28 +186,15 @@ dist/
 **3) 资源路径 404？**  
 - 确认你是从 `dist/` 目录启动静态服务器，并且 `index.html` 中 `./assets/...` 相对路径正确。
 
----
-
-## AI 生成说明（仓库定位）
-
-这个仓库建议明确写清楚你的生产方式，否则很容易被误解成“只是上传了一个打包文件”。
-
-推荐你在仓库描述中写：
-- 你用什么 **Spec** 驱动生成（Game Spec / Assets Manifest）
-- 你如何拆分 **Task**（脚手架→玩法→道具→打磨）
-- 哪些部分是 AI 生成，哪些是人工校验/调参
-
----
+ 
 
 ## License / 版权与素材
 
-- **代码**：建议使用 MIT 或自定义商业许可
-- **素材（Images/Sound/Models）**：**不建议默认开源**，请明确来源与商用授权范围  
-  - 若素材非你自有/非明确授权，请不要放入公开仓库，或只保留占位符。
-
+- **代码**：使用 MIT 或自定义商业许可
+ 
 ---
 
 ## Contact
 
-- NetGameX: https://netgamex.com （替换为你的实际链接）
-- Repo owner: NetGameX Studio
+- NetGameX: https://netgamex.com    test，link：https://gameres.netgamex.com/10gameh5/dist/index.html
+- Repo owner: NetGameX Studio 
